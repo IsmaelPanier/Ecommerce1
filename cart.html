@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panier</title>
+    <!-- Lien vers le CSS -->
+    <link rel="stylesheet" href="assets/css/style1.css" />
+    <!-- Icônes de la boîte -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- En-tête -->
+    <header>
+      <!-- Navigation -->
+      <div class="nav container">
+        <!-- Icône du menu -->
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <!-- Logo -->
+        <a href="index.html" class="logo">GarbGrove</a>
+        <!-- Barre de navigation -->
+        <div class="navbar">
+          <a href="index.html#products" class="nav-link">Femme</a>
+          <a href="index.html#products" class="nav-link">Homme</a>
+          <a href="#" class="nav-link">Enfants</a>
+          <a href="#" class="nav-link">Accessoires</a>
+        </div>
+        <!-- Icône du panier -->
+        <a href="cart.html">
+          <i class="bx bx-shopping-bag" id="cart-icon" data-quantity="0"></i>
+        </a>
+      </div>
+    </header>
+    <!-- Panier -->
+    <section class="cart-container container">
+      <a href="index.html" class="back-homepage">
+        <i class="bx bx-chevron-left"></i>
+        <span>Retour à la page d'accueil</span>
+      </a>
+      <h2 class="cart-s-title">Panier d'achat</h2>
+      <div class="cart-box">
+        <div class="cart-data">
+          <div id="cartItems"></div>
+        </div>
+        <div class="cart-t">
+          <div id="cartTotal"></div>
+          <a href="#" class="checkout-btn">Passer à la caisse</a>
+        </div>
+      </div>
+    </section>
+    <!-- Lien vers JS -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/menu.js"></script>
+  </body>
+</html>

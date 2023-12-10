@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site E-commerce</title>
+    <!-- Lien vers le CSS -->
+    <!--<link rel="stylesheet" href="assets/css/style.css" />-->
+    <link rel="stylesheet" href="assets/css/style1.css">
+    
+    <!-- Icônes de la boîte -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- En-tête -->
+    <header>
+      <!-- Navigation -->
+      <div class="nav container">
+        <!-- Icône du menu -->
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <!-- Logo -->
+        <a href="index.html" class="logo">GarbGrove</a>
+        <!-- Barre de navigation -->
+        <div class="navbar">
+          <a href="index.html#products" class="nav-link">Femme</a>
+          <a href="index.html#products" class="nav-link">Homme</a>
+          <a href="#" class="nav-link">Enfants</a>
+          <a href="#" class="nav-link">Accessoires</a>
+        </div>
+        <!-- Icône du panier -->
+        <a href="cart.html">
+          <i class="bx bx-shopping-bag" id="cart-icon" data-quantity="0"></i>
+        </a>
+      </div>
+    </header>
+    <!-- Accueil -->
+    <section class="home" id="home">
+      <div class="home-img container">
+        <img src="assets/images/home.png" alt="" />
+      </div>
+    </section>
+    <!-- Produits -->
+    <section class="products container" id="products">
+      <!-- En-tête -->
+      <h2 class="heading">Découvrir le produit</h2>
+      <!-- Conteneur des produits -->
+      <div class="product-container" id="productList"></div>
+    </section>
+    <!-- Pied de page -->
+    <div class="footer" id="footer">
+      <div class="footer-c container">
+        <div class="footer-box">
+          <h2>GarbGrove</h2>
+          <div class="social">
+            <a href="#"><i class="bx bxl-pinterest-alt"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-whatsapp"></i></a>
+            <a href="#"><i class="bx bxl-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-box">
+          <h3>Aide</h3>
+          <a href="#">Nous contacter</a>
+          <a href="#">FAQ</a>
+          <a href="#">Expédition</a>
+          <a href="#">Paiement</a>
+          <a href="#">Suivre votre commande</a>
+          <a href="#">Retourner votre commande</a>
+        </div>
+        <div class="footer-box">
+          <h3>Informations légales</h3>
+          <a href="#">Politique de confidentialité</a>
+          <a href="#">Termes et conditions</a>
+          <a href="#">Politique de retour</a>
+          <a href="#">Communauté</a>
+          <a href="#">Obtenir une carte</a>
+        </div>
+      </div>
+      <p class="copyright container">&#169 Ismael </p>
+    </div>
+    <!-- Lien vers JS -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/menu.js"></script>
+  </body>
+</html>
